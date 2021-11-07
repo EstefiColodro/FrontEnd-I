@@ -1,0 +1,42 @@
+.logo {
+    position:absolute;
+
+}
+
+.primero{
+    background-color: black;
+    color: white;
+    font-size: 10px;
+}
+
+#menu {
+    left: 780px;
+    position: relative;
+    text-align: left;
+    justify-content: center;
+}
+
+#idioma {
+    position: relative;
+    left: 870px;
+    text-align: left;
+    justify-content: center;
+    
+}
+
+#moneda {
+    position: relative;
+    left: 950px;
+    text-align: left;
+    justify-content: center;
+
+}
+
+.header {
+    background-color: orange;
+}
+
+#categorias {
+    position: fixed;
+    padding: 10px;
+}

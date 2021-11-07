@@ -1,0 +1,10 @@
+.titulo {
+    background-color: grey;
+}
+
+.foto-perfil {
+    height: 100px;
+    width: 100px;
+    padding-left: 500px;
+    background-image: center ;
+}
