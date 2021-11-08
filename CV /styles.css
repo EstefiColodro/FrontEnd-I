@@ -1,10 +1,33 @@
 .titulo {
-    background-color: grey;
+    background-color: lightgrey;
+    text-align: center;
 }
 
 .foto-perfil {
     height: 100px;
     width: 100px;
-    padding-left: 500px;
-    background-image: center ;
+    text-align: center;
+}
+
+body {
+    text-align: center;
+}
+
+.datos {
+    font-size: 17px;
+    
+}
+
+.formacion {
+    font-size: 17px;
+}
+
+.experiencia {
+    font-size: 17px;
+}
+
+.footer {
+    text-align: center;
+    background-color: lightgray;
+
 }
