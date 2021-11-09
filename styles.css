@@ -1,5 +1,8 @@
 .titulo {
-    position: relative;
-    
+    text-align: center;
+    background-color: lightskyblue;
 }
 
+body {
+    text-align: center;
+}

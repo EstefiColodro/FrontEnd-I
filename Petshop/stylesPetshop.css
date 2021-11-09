@@ -36,7 +36,17 @@
     background-color: orange;
 }
 
-#categorias {
-    position: fixed;
+#logos {
+    position: relative;
+    justify-content: space-between;
     padding: 10px;
+    left: 550px;
+}
+
+.logo {
+    justify-content: space-around;
+}
+
+.productos {
+    background-color: beige;
 }
