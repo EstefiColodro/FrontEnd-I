@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/agregar.css" rel="stylesheet">
+    <title> Agrega tu heroe! </title>
+</head>
+<body>
+    <header> 
+        <h3 class="header1"> Descuentos 20% </h3>
+        <section>
+            <h3 id="titulo1"> Heroes </h3>
+        </section>
+
+        <section>
+            <ul class="lista">
+                <li> Contacto </li>
+                <li> Registrarme </li>
+                <li> Ingresar </li>
+            </ul>
+        </section>
+    </header>
+
+    <main>
+        <form action="registro" method="POST" class="form">
+
+            <h1 id="title"> Añadí tu super! </h1>
+
+            <h3 id="subtitle"> Agrega tu personaje favorito completando las opciones </h3>
+
+            
+            <label id="nombre" for="usuario"> *Nombre </label> 
+            <input name="text" name="usuario" id="nombre1">  
+            
+            <label id="especie" for="especie"> *Especie </label> 
+            <input name="text" name="especie" id="especie1"> 
+
+            <label id="fecha" for="fecha"> *Fecha </label> 
+            <input name="date" name="fecha" id="fecha1"> 
+
+            <label id="foto" for="foto"> Agregar Foto </label> 
+            <input name="foto" name="foto" id="foto1" accept="" > 
+
+            <label for="descripcion"> *Descripción </label> 
+            <textarea id="comentario" name="descripcion" > Descripcion </textarea>
+
+            <label id="poderes" for="poderes"> Poderes </label>
+            <input type="checkbox" name="poderes" value="Superinteligencia">
+            <input type="checkbox" name="poderes" value="Vista de Rayos Laser">
+            <input type="checkbox" name="poderes" value="Billetera Gorda">
+
+            </hr>
+
+            <label id="tipo-personaje" for="tipo-personaje"> Tipo de Personaje </label>
+            <input type="radio" name="tipo-personaje" value="Heroe / Heroina">
+            <input type="radio" name="tipo-personaje" value="Villano / Villana">
+            <button type="submit"> Añadir </button>
+        </form>
+    </main>
+</body>
+</html>
